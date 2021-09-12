@@ -14,7 +14,7 @@ spring:
     show-sql: true # 现实sql到控制台
     database-platform: org.hibernate.dialect.MySQL8Dialect
   redis:
-    host: 127.0.0.1
+    host: redis.8zab09.clustercfg.use2.cache.amazonaws.com
     port: 6379
     lettuce:
       pool:
